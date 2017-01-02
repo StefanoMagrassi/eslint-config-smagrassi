@@ -1,4 +1,4 @@
-# eslint-config-nexxa [![Build Status](https://travis-ci.org/Nexxa/eslint-config-nexxa.svg?branch=master)](https://travis-ci.org/Nexxa/eslint-config-nexxa)
+# eslint-config-smagrassi [![Build Status](https://travis-ci.org/StefanoMagrassi/eslint-config-smagrassi.svg?branch=master)](https://travis-ci.org/StefanoMagrassi/eslint-config-smagrassi)
 
 Personal ESLint extensible and sharable configuration.
 
