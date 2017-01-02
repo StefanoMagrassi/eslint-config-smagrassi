@@ -7,7 +7,7 @@ Personal ESLint extensible and sharable configuration.
 Install the configuration as a npm package:
 
 ```sh
-npm install --save-dev eslint-config-nexxa
+npm install --save-dev eslint-config-smagrassi
 ```
 
 and then add it as extension in your ESLint configuration file:
@@ -17,7 +17,7 @@ and then add it as extension in your ESLint configuration file:
 // for example in your .eslinrc
 
 {
-  "extends": "nexxa"
+  "extends": "smagrassi"
 }
 
 ```
