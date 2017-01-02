@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-smagrassi",
+  "version": "0.0.1",
+  "description": "Personal ESLint configuration",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "lint": "eslint ./index.js",
+    "pretest": "npm run lint",
+    "test": "tape './tests/test.*.js' | faucet",
+    "prepublish": "npm test"
+  },
+  "repository": "StefanoMagrassi/eslint-config-smagrassi",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linter",
+    "javascript",
+    "js"
+  ],
+  "author": "StefanoMagrassi <stefano.magrassi@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/StefanoMagrassi/eslint-config-smagrassi#readme",
+  "devDependencies": {
+    "eslint": "3.1.x",
+    "faucet": "0.0.1",
+    "sinon": "1.17.x",
+    "tape": "4.6.x"
+  }
+}
