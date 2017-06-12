@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Personal ESLint configuration",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "rules"
+  ],
   "engines": {
     "node": ">=0.12"
   },
