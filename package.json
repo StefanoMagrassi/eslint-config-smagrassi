@@ -16,6 +16,17 @@
     "test": "tape './tests/test.*.js' | faucet",
     "prepublish": "npm test"
   },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "indent": ["error", 2],
+      "quotes": ["error", "single"]
+    }
+  },
   "repository": "StefanoMagrassi/eslint-config-smagrassi",
   "keywords": [
     "eslint",
