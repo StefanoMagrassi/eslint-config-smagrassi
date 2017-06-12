@@ -46,7 +46,7 @@
   "license": "MIT",
   "homepage": "https://github.com/StefanoMagrassi/eslint-config-smagrassi#readme",
   "devDependencies": {
-    "eslint": "3.1.x",
+    "eslint": "4.0.x",
     "faucet": "0.0.1",
     "sinon": "2.3.4",
     "tape": "4.6.3"
