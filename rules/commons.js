@@ -49,7 +49,12 @@ module.exports = {
     'no-useless-escape': 'error',
     'no-void': 'error',
     'no-with': 'error',
-    'new-cap': 'error',
+    'new-cap': [
+      'error', {
+        'newIsCap': true,
+        'capIsNew': false
+      }
+    ],
     'one-var': ['error', 'never'],
     'quotes': ['error', 'single'],
     'radix': 'error',
