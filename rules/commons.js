@@ -21,7 +21,8 @@ module.exports = {
       'error',
       2, {
         'VariableDeclarator': 2,
-        'SwitchCase': 1
+        'SwitchCase': 1,
+        'MemberExpression': 'off'
       }
     ],
     'linebreak-style': ['error', 'unix'],
