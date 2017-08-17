@@ -208,6 +208,12 @@ module.exports = [
     ok: 'var foo = new Bar()',
     ko: 'var foo = new bar();'
   },
+	{                                                                                                                                                         
+		title: 'Fn with capital letter - simple function with capital letter could not be constructor',
+		rule: 'new-cap',
+		ok: 'var foo = Bar()',
+		ko: 'var foo = new bar();'
+	},
   {
     title: 'One "var" per declaration - enforce variables to be declared either together or separately in functions',
     rule: 'one-var',
