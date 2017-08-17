@@ -43,12 +43,12 @@ test('Helpers', t => {
     const rule = {}; // Any rule, it doesn't matter here
     const code = ''; // Any code, it doesn't matter here
 
-    const verifyOK = sinon.stub(linter, 'verify', () => []); // This is the point
+    const verifyOK = sinon.stub(linter, 'verify').callsFake(() => []); // This is the point
     st.notOk(hasError(code, rule), 'good code should return 0 errors');
 
     verifyOK.restore();
 
-    const verifyKO = sinon.stub(linter, 'verify', () => [{severity: 2}]); // This is the point
+    const verifyKO = sinon.stub(linter, 'verify').callsFake(() => [{severity: 2}]); // This is the point
     st.ok(hasError(code, rule), 'bad code should return 1 or more errors');
 
     verifyKO.restore();
